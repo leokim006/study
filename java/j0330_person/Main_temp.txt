@@ -1,0 +1,27 @@
+package j0330_person;
+
+public class Main{
+    public static void main(String[] args){
+        Person p1 = new Person();
+        Person p2 = new Person("P2");
+        Person p3 = new Person("P3", 9999);
+        Person p4 = new Person("P3", 9999);
+
+        if (p3.hashCode() == p2.hashCode()){
+            if (p3.equals(p2)) {
+                System.out.println(p3 + "is the same person as " + p2);
+            } else {
+                System.out.println(p3 + "is the different person as " + p2);
+            }
+        }
+
+        p1.setName("p1");
+
+        /*
+        System.out.println("Person: " + p1.getName());
+        System.out.println("Person: " + p2.getName());
+        System.out.println("Person: " + p3.getName());
+        */
+    }
+// obj class file
+}

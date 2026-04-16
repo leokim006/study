@@ -1,0 +1,15 @@
+# C/C++
+*.o
+*.out
+*.exe
+
+# Java
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS (혹시 모를 찌꺼기)
+.DS_Store
+Thumbs.db
