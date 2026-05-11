@@ -1,3 +1,5 @@
+package map;
+
 public class LinkedListTest {
     public static void main(String[] args) {
         SimpleList<String> list = new MyLinkedList<>();

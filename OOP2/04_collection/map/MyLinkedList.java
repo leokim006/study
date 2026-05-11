@@ -1,3 +1,5 @@
+package map;
+
 public class MyLinkedList<E> implements SimpleList<E> {
     private Node<E> head;
     private int size;
