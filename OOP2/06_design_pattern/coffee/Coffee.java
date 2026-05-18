@@ -1,6 +1,6 @@
 package coffee;
 
-public class Coffee {
+public abstract class Coffee {
     protected String description;
     
     public String getDescription() {

@@ -1,4 +1,6 @@
-public class CoffeeDecorator extends Coffee {
+package coffee;
+
+public abstract class CoffeeDecorator extends Coffee {
     Coffee c;
 
     public CoffeeDecorator(Coffee c) {

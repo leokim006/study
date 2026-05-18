@@ -1,3 +1,5 @@
+package coffee;
+
 public class Milk extends CoffeeDecorator {
     public Milk(Coffee c) {
         super(c);
