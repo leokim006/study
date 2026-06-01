@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        TextComponent st = new SimpleText("Simple");
+        TextComponent st = new SimpleText("simple");
         TextComponent bt = new BoldText(st);
         TextComponent it = new ItalicText(st);
         TextComponent ut = new UnderlineText(st);
